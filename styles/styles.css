@@ -1,0 +1,169 @@
+body {
+    font-family: Roboto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-hover: #2196F3;
+    --font-family: 'Raleway', sans-serif;
+    --color-color2: #757575;
+    --background-color-color3: #2F303A;
+    --background-color-color4: #F5F4FA;    
+       
+}
+
+/* Nav */
+
+.logo {
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.17;
+   color: #2196F3;
+
+}
+
+.logo2 {
+    color: #212121;
+}
+
+.list:hover {
+    color: var(--color-hover);
+}
+
+.list-font {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;  
+    list-style-type: none;
+}
+
+.list-font-email-tel {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;  
+}
+
+.list-font-email-tel:hover {
+    color: var(--color-hover);
+}
+
+/* Menu-Section1 */
+
+.section1 {
+    background-color: var(--background-color-color3)
+}
+.header1 {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+
+
+    /* Button */
+
+.button {
+    color: #fff;
+    background-color: #2196F3;
+    padding: 10px 32px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    border: 0;
+    
+}
+
+.button:hover,
+.button:focus {
+    background-color: #188ce8;
+    color: #FFFFF; 
+}
+
+/* Header-list */
+
+.header-list {
+    font-weight: 700;
+
+}
+
+.text-list {
+    color: var(--color-color2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Header-Photo */
+
+.header-photo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+/* Our Team */
+
+.big-team {
+    background-color: var(--background-color-color4);
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.members {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.17;
+}
+
+.profession {
+    color: var(--color-color2);
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.17;
+}
+
+/* Footer */
+
+.big-footer {
+    background-color: var(--background-color-color3);
+}
+
+.city {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.city:hover {
+    color: var(--color-hover)
+}
+
+.email-tel {   
+    
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+.email-tel:hover {
+    color: var(--color-hover);
+}
+
+.logo3 {
+    color: #fff;
+}
+
+
+
